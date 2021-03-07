@@ -10,5 +10,10 @@ public class Main {
         {
             System.out.print(x + "  ");
         }
+        System.out.println("\nArray in reverse order:");
+        for (int i = myArray.length - 1 ; i >= 0 ; i-- )
+        {
+            System.out.print(myArray[i] + "  ");
+        }
     }
 }
